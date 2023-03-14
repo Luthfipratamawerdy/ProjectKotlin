@@ -38,9 +38,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_pindah_objek -> run {
                 val motorcycle = Motorcycle(
-                    "Suzuki Gsxr-1000r",
-                    2023,
-                    "BM 2003 SAR"
+                    "Yamaha YZF-R1",
+                    2020,
+                    "BM 2030 SAR"
                 )
                 val intentObjek = Intent(this@MainActivity, PindahObjekActivity::class.java)
                 intentObjek.putExtra(PindahObjekActivity.EXTRA_MOTORCYCLE, motorcycle)
